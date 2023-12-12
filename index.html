@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>rock papaer scissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>COSMIC CHALLENGE <br> ROCK, PAPER OR SCISSORS</h1>
+        <p>Brave Adventurer, the cosmic creature Shoggoth is attacking this dimension, <br> defeat ir in a cosmic battle "rock, paper or scissors". GOOD LUCK.</p>
+    </header>
+
+    <div class="vortex">
+        <div class="core">
+            <img src="https://64.media.tumblr.com/08ba52a5a3fa08f783463b7f52481b8e/3ed795ecb2c166cf-91/s1280x1920/62b46b7d9a7fd8e45b381d7f49b68379b99045aa.gifv" alt="shoggoth">
+        </div>
+    </div>
     
+    <div class="score-board">
+        <div id="user-label" class="badge">ADVENTURER</div>
+        <div id="comp-label" class="badge">SHOGGOTH</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Prepare to battle!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="img/x_rock.png" alt="rock" />
+        </div>
+        <div class="choice" id="paper">
+            <img src="img/x_paper.png" alt="paper" />
+        </div>
+        <div class="choice" id="scissor">
+            <img src="img/x_scissor.png" alt="scissor" />
+        </div>
+    </div>
+
+    <div class="bottom-txt">
+        <p id="mesage-user">Make your move.</p>
+    </div>
+
+    <script src="script.js" charset="UTF-8"></script>
 </body>
 </html>
